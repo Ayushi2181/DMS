@@ -1,0 +1,45 @@
+.flood-map-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#map {
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.flood-history-chart {
+    height: 400px;
+    margin: 20px 0;
+}
+
+.flood-risk-card {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.flood-risk-alert {
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.flood-risk-details {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+.flood-history-container {
+    padding: 20px;
+}
+
+.flood-history-chart-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
